@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اسأل - فاهمني ببساطه</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">فاهمني ببساطه</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">الرئيسيه</a></li>
+                    <li class="nav-item"><a class="nav-link" href="explore.html">الشرح</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="ask.html">اسأل</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-4">عندك سؤال؟</h1>
+            <p class="text-center lead">لو في حاجه مش مفهومه، اسأل واحنا هنرد عليك بأبسط طريقه ممكنه</p>
+            <form class="mt-4" action="index.html" method="get">
+                <div class="form-group">
+                    <label for="name">اسمك (اختياري):</label>
+                    <input type="text" class="form-control" id="name" placeholder="اكتب اسمك">
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني (لو حابب نرد عليك):</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="question">السؤال:</label>
+                    <textarea class="form-control" id="question" rows="5" placeholder="اكتب سؤالك هنا..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark btn-block" onclick="alert('تم إرسال سؤالك! شكراً لتواصلك معنا 😊')">ابعت السؤال</button>
+                <button type="reset" class="btn btn-dark btn-block">اعاده الكتابه</button>
+            
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light text-center p-3 mt-5">
+        <p class="mb-0">&copy; 2025 <strong>فاهمني ببساطه</strong>. الدنيا أبسط بكتيرررر.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9gBOYy0Zl1eZZF9RnE4GzRyvE4T46HoPazTA7" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
